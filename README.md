@@ -4,6 +4,7 @@ An R&D quantitative research project focused on testing market predictability an
 
 ## 📊 Dataset
 The dataset comprises 5 years (2021-2026) of 1-minute OHLCV data for BTC, ETH, SOL, and BNB collected via Binance API.
+**Link to Dataset:** [Binance 1-Minute Perpetual Futures OHLCV 2021-2026](https://www.kaggle.com/datasets/mishvnia/binance-1m-perpetual-futures-ohlcv-2021-2026)
 
 ## 🛠 Tech Stack
 - **Deep Learning:** PyTorch (`nn.GRU`, custom loss backpropagation)
