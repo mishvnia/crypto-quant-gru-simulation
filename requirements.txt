@@ -4,3 +4,4 @@ duckdb
 torch
 tqdm
 matplotlib
+python-dateutil
