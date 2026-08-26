@@ -25,11 +25,12 @@ To prevent regime overfitting, each batch element dynamically samples:
 * **Random Timeframe Resampling:** Reshaped candles between 1 hour and 8 hours.
 * **Dynamic Context Window:** Sequence history between 10 and 30 frames.
 
-
 3. **Differentiable PnL Engine:**
 Implemented via `.detach()` in PyTorch to bypass non-differentiable order-trigger boundary conditions, allowing the neural network to backpropagate gradients directly through simulated trading PnL.
 
 ## 📈 Key Findings & Fractal Noise Hypothesis
+
+![Training Metrics](results/training_metrics.png)
 
 * **Results:** Across dynamic timeframes and assets, average PnL remains negative with a Win Rate oscillating around ~44%.
 * **Conclusion (Fractal Noise Hypothesis):**
